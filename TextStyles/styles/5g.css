@@ -1,0 +1,23 @@
+
+*{
+  font-family: arial;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-size: 12px;
+}
+.text1{
+  font-weight: bold;
+  margin-bottom: 5px;
+  margin-top:5px;
+}
+.handle1{
+  color: rgb(165, 161, 161);
+}
+.text2{
+  width: 400px;
+  line-height: 20px;
+  margin-bottom: 15px;
+}
+.handle2{
+  color: rgb(43, 189, 238);
+}

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>13g exercise</title>
+    <style>
+      *{
+        margin-top: 0px;
+        margin-bottom: 0px;
+        font-family: arial;
+      }
+      .container{
+        display: flex;
+        margin-top:20px;
+        margin-left: 20px;
+        width:400px;
+      }
+      .profile-pic{
+        width: 50px;
+        height: 50px;
+        object-fit: cover;
+        object-position: center;
+        border-radius: 25px;
+        margin-right: 10px;
+      }
+      .profile-info{
+        flex: 1;
+      }
+      .handle{
+        color: grey;
+        font-weight: lighter;
+      }
+      .author{
+        font-weight: bold;
+        margin-bottom: 5px;
+      }
+      .desc-1{
+        margin-bottom: 12px;
+        line-height: 22px;
+      }
+      .youtube-link{
+        display: flex;
+        align-items: center;
+        border: 1px solid rgb(192, 190, 190);
+        border-radius: 15px;
+        overflow: hidden;
+      }
+      .thumbnail-div{
+        background-color: rgba(172, 169, 169, 0.966);
+        width: 100px;
+        height: 100px;
+      }
+      .desc-2{
+        line-height: 22px;
+      }
+      .youtube{
+        color: grey;
+        margin-bottom: 5px;
+      }
+      .youtube-div{
+        padding: 10px;
+        flex: 1;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <img class="profile-pic" src="cat2.jpg">
+      <div class="profile-info">
+        <p class="author">supersimple.dev <span class="handle">@SuperSimpleDev</span></p>
+        <p class="desc-1">What is backend web development? A complete overview. New video is up!</p>
+        <div class="youtube-link">
+          <div class="thumbnail-div"></div>
+          <div class="youtube-div">
+            <p class="youtube">youtube.com</p>
+            <p class="desc-2">Backend web development - a complete overview (2021)</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

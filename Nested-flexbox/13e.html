@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>13 e exercises</title>
+    <style>
+      *{
+        margin-top: 0px;
+        margin-bottom: 0px;
+        font-family: Arial;
+      }
+      .card{
+        box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.15);
+        margin:20px;
+        width: 350px;
+        padding: 10px;
+      }
+      .email{
+        display: flex;
+        margin-top: 10px;
+        align-items: center;
+        padding-bottom: 10px;
+      }
+      .profile-pic{
+        width: 50px;
+        height: 50px;
+        object-fit: cover;
+        object-position: center;
+        border-radius: 25px;
+        margin-right: 10px;
+      }
+      .flex-box{
+        display: flex;
+        justify-content: space-between;
+        
+      }
+      .category,.message-body,.email-time{
+        color: grey;
+      }
+      .message-title,.message-body,.email-time{
+        font-size: 14px;
+      }
+      .email-subject,.message-title{
+        font-weight: bold;
+        margin-bottom: 4px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="card">
+      <div class="category">ALL INBOXES</div>
+        <div class="email">
+          <img class="profile-pic" src="cat2.jpg">
+          <div class="email-body">
+            <div class="flex-box">
+              <div class="email-subject">Chewy Promotions</div>
+              <div class="email-time">4:58 PM</div>
+            </div>
+            <div class="message-title">Biggest sales of the year!</div>
+            <div class="message-body">Hey there! We're writing to tell you about our...</div>
+          </div>
+        </div>
+        <div class="email">
+          <img class="profile-pic" src="cat1.jpg">
+          <div class="email-body">
+            <div class="flex-box">
+              <div class="email-subject">Best Buy</div>
+              <div class="email-time">12:32 PM</div>
+            </div>
+            <div class="message-title">Your Best Buy eReceipt</div>
+            <div class="message-body">Thank you for shopping at Best Buy, here is...</div>
+          </div>
+        </div>
+        <div class="email">
+          <img class="profile-pic" src="cat3.webp">
+          <div class="email-body">
+            <div class="flex-box">
+              <div class="email-subject">Netflix</div>
+              <div class="email-time">9:00 AM</div>
+            </div>
+            <div class="message-title">Here's what's coming soon to Netflix</div>
+            <div class="message-body">Brand new movies and shows, old favorites...</div>
+          </div>
+        </div>
+    </div>
+    
+  </body>
+</html>

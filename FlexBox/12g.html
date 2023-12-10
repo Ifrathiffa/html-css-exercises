@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>12 g exercise</title>
+    <style>
+      *{
+        margin-top: 0px;
+        margin-bottom: 0px;
+        font-family: arial;
+      }
+      .card{
+        display: flex;
+        flex-direction: row;
+        padding: 8px;
+        align-items: center;
+      }
+      .profile{
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        object-fit: cover;
+        object-position: center;
+        margin-right: 12px;
+      }
+      .profile-info{
+        line-height: 20px;
+        width: 300px;
+        
+      }
+      .author{
+        font-weight: bold;
+      }
+      .title, .stats{
+        color: grey;
+      }
+      .follow-btn{
+        border: none;
+        background-color: rgb(16, 99, 207);
+        color:white;
+        border-radius: 3px;
+        cursor: pointer;
+        padding: 8px 12px;
+      }
+    </style>
+  </head>
+  <body>
+    
+      <div class="card">
+        <img class="profile" src="cat2.jpg">
+        <div class="profile-info">
+          <p class="author">oliver</p>
+          <p class="title">the cat</p>
+          <p class="stats">Popular</p>
+        </div>
+        <button class="follow-btn">Follow</button>
+      </div>
+      <div class="card">
+        <img class="profile" src="cat1.jpg">
+        <div class="profile-info">
+          <p class="author">Mimi</p>
+          <p class="title">Sleepy Cat</p>
+          <p class="stats">Popular</p>
+        </div>
+        <button class="follow-btn">Follow</button>
+      </div>
+        <div class="card">
+          <img class="profile" src="cat3.webp">
+          <div class="profile-info">
+            <p class="author">Rex</p>
+            <p class="title">Happy Bulldog</p>
+            <p class="stats">Popular</p>
+          </div>
+          <button class="follow-btn">Follow</button>
+        </div>
+        
+  </body>
+</html>

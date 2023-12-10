@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>12 exercises</title>
+    <style>
+      .flex1, .flex2{
+        display: flex;
+        flex-direction: row;
+      }
+      .box1{
+        width: 200px;
+        background-color: lightblue;
+      }
+      .box2{
+        width: 75px;
+        background-color: lightpink;
+      }
+      .item1{
+        width: 50px;
+        background-color: lightblue;
+      }
+      .item2{
+        flex: 1;
+        background-color: lightpink;
+      }
+      .item3{
+        width: 75px;
+        background-color: lightblue;
+      }
+      .flex3{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        
+      }
+      .col{
+        background-color: lightpink;
+      }
+      .flex4{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        height: 50px;
+        border: 1px solid black;
+      }
+      .packet{
+        background-color: lightpink;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="flex1">
+      <div class="box1">200px</div>
+      <div class="box2">75px</div>
+    </div><br>
+
+    <div class="flex2">
+      <div class="item1">item1</div>
+      <div class="item2">item2</div>
+      <div class="item3">item3</div>
+    </div><br>
+
+    <div class="flex3">
+      <div class="col">col1</div>
+      <div class="col">col2</div>
+      <div class="col">col3</div>
+      <div class="col">col4</div>
+    </div><br>
+
+    <div class="flex4">
+      <div class="packet">item1</div>
+      <div class="packet">item2</div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Uber Ride</title>
+    <style>
+      *{
+        margin-top: 0px;
+        margin-bottom: 0px;
+        font-family: arial;
+        font-size: 16px;
+      }
+      .title{
+        font-size: 32px;
+        margin-top: 5px;
+        margin-bottom: 20px;
+      }
+      .location, .destination{
+        display: block;
+        width: 350px;
+        padding: 8px 10px;
+        background-color: rgba(221, 221, 195, 0.856);
+        border: none;
+        outline: none;
+        margin-bottom: 10px;
+      }
+      .destination{
+        margin-bottom: 25px;
+      }
+      .request-btn{
+        background-color: black;
+        color: white;
+        padding: 10px 15px;
+        border: none;
+        cursor: pointer;
+        margin-right: 10px;
+      }
+      .schedule-btn{
+        background-color: rgba(221, 221, 195, 0.856);
+        padding: 10px 15px;
+        border: none;
+        cursor: pointer;
+      }
+    </style>
+
+  </head>
+  <body>
+    <p class="title">Request a ride now</p>
+    <input class="location" placeholder="Enter pickup location">
+    <input class="destination" placeholder="Enter destination">
+    <button class="request-btn">Request now</button>
+    <button class="schedule-btn">Schedule for later</button>
+  </body>
+</html>

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>11 a exercise</title>
+    <style>
+      .a-example-grid{
+        display: grid;
+        grid-template-columns: 200px 75px;
+      }
+      .div1{
+        background-color: lightblue;
+      }
+      .div2{
+        background-color: lightpink;
+      }
+      .b-example-grid{
+        display: grid;
+        grid-template-columns: 50px 1fr 75px;
+      }
+      .col1,.col3{
+        background-color: lightblue;
+      }
+      .col2{
+        background-color: lightpink;
+      }
+      .c-example-grid{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        column-gap: 20px;
+        row-gap: 10px;
+      }
+      .b1{
+        background-color: lightpink;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="a-example-grid">
+      <div class="div1">200px</div>
+      <div class="div2">75px</div>
+    </div><br>
+
+    <div class="b-example-grid">
+      <div class="col1">col1</div>
+      <div class="col2">col2</div>
+      <div class="col3">col3</div>
+    </div><br>
+
+    <div class="c-example-grid">
+      <div class="b1">box1</div>
+      <div class="b1">box2</div>
+      <div class="b1">box3</div>
+      <div class="b1">box4</div>
+      <div class="b1">box5</div>
+      <div class="b1">box6</div>
+      <div class="b1">box7</div>
+      <div class="b1">box8</div>
+    </div>
+  </body>
+</html>

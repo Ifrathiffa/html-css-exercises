@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>13b exercises</title>
+    <style>
+      .flex-box{
+        display: flex;
+        height: 50px;
+      }
+      .col1{
+        background-color: lightpink;
+        width: 100px;
+      }
+      .col2{
+        width: 200px;
+        background-color: lightblue;
+      }
+      .row-flex{
+        display: flex;
+        justify-content: space-between;
+      }
+      .row2, .row3{
+        background-color: black;
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="flex-box">
+      <div class="col1"></div>
+      <div class="col2">
+        <div class="row1">row1</div>
+        <div class="row-flex">
+          <div class="row2">row2</div>
+          <div class="row3">row3</div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
