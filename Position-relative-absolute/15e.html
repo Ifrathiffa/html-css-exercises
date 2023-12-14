@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>15 e exercise</title>
+    <style>
+      *{
+        margin-top: 0;
+        margin-bottom: 0;
+        font-family: arial;
+      }
+      .product-card{
+        display: inline-block;
+        position: relative;
+        border: 1px solid gray;
+      }
+      .product-card img{
+        width: 300px;
+        height: 300px;
+        object-fit: cover;
+        object-position: center;
+      }
+      .offer{
+        position: absolute;
+        top: 5px;
+        right: 0;
+        background-color: black;
+        color: white;
+        padding: 5px 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="product-card">
+      <img src="shirt.jpg">
+      <div class="offer">20% OFF</div>
+    </div>
+  </body>
+</html>
